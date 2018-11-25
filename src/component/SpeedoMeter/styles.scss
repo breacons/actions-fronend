@@ -1,0 +1,26 @@
+.meter-container {
+  position: relative;
+  left: -320px;
+}
+
+.background {
+  width: 600px;
+  height: 600px;
+  //background-color: red;
+  background-image: url("../../img/speedometer_bg.png");
+  position: absolute;
+}
+
+.meterWrapper {
+  position: absolute;
+  top: 50px;
+  left: 50px
+
+}
+
+.speed{
+  font-size: 100px;
+  margin-top: -330px;
+  /* margin-left: 220px; */
+  position: relative;
+}

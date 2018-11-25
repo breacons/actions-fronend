@@ -1,0 +1,71 @@
+.battery-meter-container {
+  position: relative;
+  //left: -260px;
+}
+
+.battery-background {
+  width: 350px;
+  height: 350px;
+  //background-color: red;
+  background-image: url("../../../../img/battery-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.battery-meterWrapper {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.circle-running {
+  //stroke: #7ef8ff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: spin infinite 4s ease-in-out;
+  transform-origin: 125.5px;
+  fill: none;
+  //transform: rotate(-290 7/2 7/2);
+  //animation: progress 2s infinite alternate;
+}
+
+//.progress {
+//  //transform: rotate(0);
+//}
+//
+//@keyframes progress {
+//  from {
+//    transform: rotate(0);
+//  }
+//  to {
+//    transform: rotate(-290deg 7/2 7/2);
+//  }
+//}
+
+//@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+//@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin {
+  0%{
+    stroke: black;
+  }
+
+  29.5%{
+    stroke: black;
+  }
+  30%{
+    stroke: rgba(126, 248, 255, 0.45);
+  }
+  76%{
+    stroke: rgba(126, 248, 255, 0.45);
+  }
+  77%{
+    stroke: black;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    stroke: black;
+  }
+
+}

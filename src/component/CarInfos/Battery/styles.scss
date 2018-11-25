@@ -1,0 +1,39 @@
+.km-left {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+
+  .km-left-value {
+    font-weight: 600;
+    text-align: left;
+    font-size: 84px;
+  }
+
+  .km-left-subtitle {
+    font-size: 14px;
+    margin-top: -10px;
+    text-align: left;
+  }
+
+}
+
+.battery-meter-container {
+  top: -35px;
+  left: 30px;
+}
+
+.stop-charging {
+  border: solid 2px rgb(198, 176, 44);
+  border-radius: 6px;
+  width: 180px;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  position: absolute;
+  margin-left: 230px;
+  margin-top: -140px;
+  cursor: pointer;
+}
+
+
